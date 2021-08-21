@@ -1,0 +1,17 @@
+.body {
+  background-color: rgb(2, 0, 32);
+}
+.page-header {
+  background-image: url("https://www.mhh.de/fileadmin/mhh/paed-pneumologie-allergologie-neonatologie/Neue_Bilder/Forschung/Forschung_AG_Baumann_Immunologie__iStock-1204697609_Kachel_220.jpg");
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  color: aliceblue;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
