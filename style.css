@@ -18,3 +18,31 @@ h1 {
 .jumbotron {
   margin: 1%;
 }
+
+h2 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.card {
+  margin-top: 2.1%;
+  max-width: 420px;
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.quote {
+  font-size: 15px;
+}
+
+.blockquote-footer{
+  font-size: 10px;
+}
+
+.card-header {
+  font-weight: bold;
+  color: steelblue;
+  text-align: center;
+}
