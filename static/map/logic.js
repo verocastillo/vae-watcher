@@ -5,8 +5,6 @@ const text1 = '[{"statename":"Alabama","state":"AL","latitude":"32.318231","long
 const text = text1 
 const myArr = JSON.parse(text)
 
-var myMap;
-
 var spotTotal = [];
   for (var cont = 0; cont < myArr.length; cont++) {
     var statename = myArr[cont].statename
@@ -29,15 +27,6 @@ var spotTotal = [];
 var Totalmap = L.layerGroup(spotTotal)
 createMap(Totalmap);
 
-  // Create our map, giving it the streetmap and earthquakes layers to display on load
-  myMap = L.map("map", {
-    center: [
-      //-23.5489, -46.6388
-      -10,-55
-    ],
-    zoom: 3,
-    layers: [streetmap]
-  });
 
   // Function to create layers mapping
 function createMap(Totalmap) {
