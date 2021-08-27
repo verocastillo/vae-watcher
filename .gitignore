@@ -1,6 +1,7 @@
 # OS Data Files	
 *DS_Store*
 *config.py*
+*config.js*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
