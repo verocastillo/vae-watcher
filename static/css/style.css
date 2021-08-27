@@ -46,3 +46,9 @@ h2 {
   color: steelblue;
   text-align: center;
 }
+
+#map,
+body,
+html {
+  height: 100%;
+}
