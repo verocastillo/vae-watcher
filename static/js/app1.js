@@ -1,6 +1,4 @@
-// Import JSON file
-fetch("data.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
+// Import dataset from data.json
+var tableData = data;
+
+console.log(data)
