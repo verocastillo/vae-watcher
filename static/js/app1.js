@@ -12,7 +12,7 @@ d3.json(url).then(function(response) {
   const data = response;
   console.log(data[0])
   // Get top 10
-  document.getElementById("p1").innerHTML = "New text!"
+  d3.select("#p1").append("From 362,670,106 COVID vaccines applied, only 24417 VAEs were reported")
 
 });
 }
