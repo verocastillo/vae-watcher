@@ -1,5 +1,5 @@
 // Import JSON file
-fetch("https://vae-watcher.herokuapp.com/api")
+fetch("https://vae-project.herokuapp.com/api")
 .then(response => {
    return response.json();
 })
