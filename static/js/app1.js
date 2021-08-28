@@ -1,4 +1,6 @@
 // Import JSON file
-const data = require('./employees.json');
-console.log(data);
-
+fetch("./data.json")
+.then(response => {
+   return response.json();
+})
+.then(data => console.log(data));
