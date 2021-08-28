@@ -67,11 +67,17 @@ h7 {
 }
 
 .picture {
-  width: 85%;
+  width: 90%;
   padding: 1px;
 }
 
 .pictureh {
-  width: 85%;
+  width: 90%;
   padding: 1px;
+}
+
+.container {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
