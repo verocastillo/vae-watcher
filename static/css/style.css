@@ -63,9 +63,10 @@ h7 {
   font-size: 38px;
   font-weight: normal;
   color:darkslategrey;
+  text-align: center;
 }
 
-.pic {
+picture {
   width: 22%;
-  padding: 1%;
+  padding: 1px;
 }
