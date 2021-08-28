@@ -10,19 +10,11 @@ function onlyUnique(value, index, self) {
 const url = "/api";
 d3.json(url).then(function(response) {
   const data = response;
-
-  // Get data to use
-  const as_all = data.agesymptoms-all;
-  const as_pfz = data.agesymptoms-pfizer;
-  const as_mod = data.agesymptoms-moderna;
-  const top10 = data.top10symptoms;
-  const totvax = data.totalvaccines;
-
+  console.log(data[0])
   // Get top 10
-  document.getElementById("card-text3").innerHTML = "New text!"
+  document.getElementById("p1").innerHTML = "New text!"
 
 });
 }
-
 
 buildPage();
