@@ -58,3 +58,14 @@ h6 {
   font-weight: bold;
   color:darkslategrey;
 }
+
+h7 {
+  font-size: 38px;
+  font-weight: normal;
+  color:darkslategrey;
+}
+
+.pic {
+  width: 22%;
+  padding: 1%;
+}
