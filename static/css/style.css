@@ -66,7 +66,12 @@ h7 {
   text-align: center;
 }
 
-picture {
+.picture {
   width: 22%;
+  padding: 1px;
+}
+
+.pictureh {
+  width: 47%;
   padding: 1px;
 }
