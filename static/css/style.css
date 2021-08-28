@@ -52,3 +52,9 @@ h4 {
   font-weight: bold;
   color: darkslategray;
 }
+
+h6 {
+  font-size: 42px;
+  font-weight: bold;
+  color:darkslategrey;
+}
